@@ -104,7 +104,7 @@ export const RESUME_DATA = {
       logo: MonitoLogo,
       link: {
         // label: "monito.dev",
-        href: "https://github.com/ultigendlemate/auto-apply-wellfound",
+        href: "https://github.com/UltigendLemate/wellfound-autoapply",
       },
     },
     {
@@ -189,8 +189,8 @@ export const RESUME_DATA = {
         "Users can check archive magazines and read in a 3d flipbook format.",
       // logo: MobileVikingsLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        // label: "mobilevikings.pl",
+        href: "https://hammer.co.in",
       },
     },
     {
