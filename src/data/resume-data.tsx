@@ -57,6 +57,16 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Hyperleap Software Technologies",
+      link: "https://hyperleap.ai",
+      badges: ["Remote"],
+      title: "Software Developer Intern",
+      start: "April 2024",
+      end: "Present",
+      description:
+        "Developed a high-performance multi-modal chat interface using React.js and Redux, driving a 30% increase in adoption. Also led the redesign of the admin console, enhancing LLM management and Developer Experience, and implemented agentic workflows using Semantic Kernel with C#, significantly improving overall UX.",
+    },
+    {
       company: "Carboledger",
       link: "https://carboledger.com",
       badges: ["Remote"],
@@ -64,21 +74,45 @@ export const RESUME_DATA = {
       start: "June 2023",
       end: "July 2023",
       description:
-        "Increased Carboledger's blog efficiency by 80% by migrating to a user-friendly platform, implemented HubSpot to streamline lead generation (20% increase), and doubled blog traffic through SEO best practices. Technologies: React, TypeScript, Wordpress, HubSpot",
+        "Migrated the entire blog ecosystem from Next.js to WordPress, enhancing content management for non-technical staff and resulting in an 80% increase in efficiency. Integrated HubSpot into the platform, leading to a 20% increase in qualified leads, and improved the blog's design and SEO, doubling average page views from 2,000 to 4,000 within the first month.",
     },
   ],
   skills: [
+    "Python",
+    "C++",
     "JavaScript",
     "TypeScript",
     "React/Next.js",
+    "Tailwind CSS",
     "Node.js",
-    // "GraphQL",
-    // "Relay",
-    "Python",
-    "C++",
-    "Tailwind CSS"
+    "DSA",
+    "MongoDB",
+    "PostgreSQL",
+    "Firebase",
+    "Redux",
+    "Supabase",
+    "Prisma",
+    "Drizzle",
+    "Wordpress",
   ],
   projects: [
+    {
+      title: "Sneakace",
+      techStack: [
+        // "Side Project",
+        "Firebase",
+        "Next.js",
+        "MongoDB",
+        "Ecommerce",
+        // "WebRTC",
+      ],
+      description: "Ecommerce platform for selling premium laces for sneakers.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Sneakace",
+        href: "https://sneakace.com/",
+      },
+    },
     {
       title: "Shortenn",
       techStack: [
@@ -94,6 +128,17 @@ export const RESUME_DATA = {
       link: {
         label: "shortenn.me",
         href: "https://shortenn.me/",
+      },
+    },
+    {
+      title: "TourCraft",
+      techStack: ["Next.js", "Generative AI","MongoDB"],
+      description:
+        "Dynamic tour planner for travel enthusiasts. Create customised travel plans in seconds.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/UltigendLemate/tourcraft",
       },
     },
     {
@@ -126,6 +171,17 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://devfolio.co/projects/quikplanr-5f4f",
+      },
+    },
+    {
+      title: "Incoming India",
+      techStack: [ "Next.js", "Typescript"],
+      description:
+        "Portfolio website targetting inbound travellers.",
+      // logo: Howdy,
+      link: {
+        // label: "play.google.com",
+        href: "https://incomingindia.co.in/",
       },
     },
 
@@ -194,16 +250,17 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Incoming India",
-      techStack: [ "Next.js", "Typescript"],
+      title: "Reliable Chemtech",
+      techStack: ["Next.js", "Typescript","Tailwind CSS"],
       description:
-        "Portfolio website targetting inbound travellers.",
-      // logo: Howdy,
+        "Portfolio website for chemical importing/ exporting/ manufacturing company.",
+      // logo: MobileVikingsLogo,
       link: {
-        // label: "play.google.com",
-        href: "https://incomingindia.co.in/",
+        // label: "mobilevikings.pl",
+        href: "https://hammer.co.in",
       },
     },
+
     
   ],
 } as const;
